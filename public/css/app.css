@@ -1,4 +1,82 @@
 a {
-  background-color: yellow;
-  font-size: 40px;
+  margin-left: 20px;
+  text-decoration: none;
+  height: 100%;
+}
+
+li {
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  height: 60px;
+  margin-left: 40px;
+}
+
+.links-section {
+  background-image: url("../assets/img/footer-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+.container img {
+  max-width: 100%;
+}
+.container .col {
+  width: calc(32% - 5px);
+  display: inline-flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.container .col ul {
+  padding: 0;
+  display: inline;
+}
+.container .col ul li {
+  list-style-type: none;
+  color: grey;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+.container .col ul :first-child {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+.container .logo-bg {
+  background-image: url("../assets/img/dc-logo-bg.png");
+  background-position: center;
+  background-size: cover;
+}
+.container .container-links {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 65%;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
